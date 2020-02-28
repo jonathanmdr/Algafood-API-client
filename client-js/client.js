@@ -1,7 +1,7 @@
 const config = {
   clientId: "food-analytics",  
-  authorizeUrl: "http://localhost:8095/oauth/authorize",
-  tokenUrl: "http://localhost:8095/oauth/token",
+  authorizeUrl: "http://localhost:8080/oauth/authorize",
+  tokenUrl: "http://localhost:8080/oauth/token",
   callbackUrl: "http://localhost:8082",
   paymentFormsUrl: "http://localhost:8080/v1/payment-forms"
 }
